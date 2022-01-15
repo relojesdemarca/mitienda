@@ -1,0 +1,94 @@
+#top-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1E1F29;
+}
+
+#header {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #15161D;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 3px solid red;
+  
+}
+
+.logo {
+text-align: center;
+margin-top: 15px;
+margin-bottom: -80px;
+float: none;
+}  
+.titulo  {
+  font-size: 40px;
+  text-align: center;
+  
+  margin-bottom: -60px;
+  color: #FFF;
+} 
+
+
+  
+.amazon-producto {
+    border: 5px solid #ddd;
+    display: block;
+    padding: 24px;
+  }
+ .amazon-producto img {
+    width: 50%; 
+    height: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+ }
+  .amazon-columna {
+    display: inline-block;
+    width: 49%;
+    margin-top: 5px;
+    vertical-align: middle;
+  }
+  .amazon-enlace {
+    display: block;
+    background-color: #fc4;
+    color: #000 !important;
+    padding: 8px;
+    border-radius: 12px;
+    border: 2px solid #000;
+    width: max-content;
+    font-size: 100%;
+    float: right;
+  }
+
+.precio {
+height: 25px;
+width: 60%;
+margin: auto;
+
+font-family: sans-serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+} 
+
+.box-precio {
+    width: 130px;
+}
+
+.precio1 {
+    color: red;
+    font-size: 15px;
+}
+
+.precio2 {
+font-size: 20px;
+
+}   
+
+ @media screen and (max-width:800px) {
+    .amazon-columna {
+      display: block;
+      width: 100%;
+    }
+}
+
